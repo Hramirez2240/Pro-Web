@@ -9,49 +9,90 @@
 <p>
     <a asp-action="Create">Crear pelicula</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Url)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sipnosis)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Foto)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Url)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Sipnosis)
-            </td>
-            <td>
-                @{ var FotoToLook = "~/img/Movie/" + (!string.IsNullOrEmpty(item.FotoPath) ? item.FotoPath : "Error.png"); }
 
-                <img src="@FotoToLook" asp-append-version="true" alt="Alternate Text" width="25" />
+@*@foreach (var item in Model)
+{
+<div class="container">
+    <div class="card" style="width: 18rem;">
+        <img src="~/img/Movie/@item.FotoPath" class="card-img-top" alt="...">
+    </div>
+    <div style="position: relative; left: 20px;">
+        <a href="">
+            <img src="~/img/brand/jugar.png" style="height: 40px; width: 40px; margin-left: 25px; position: relative; top: -20px;" />
+        </a>
+        <a href="Movies/Edit/@item.Id">
+            <img src="~/img/brand/editar.png" style="height: 40px; width: 40px; margin-left: 25px; position: relative; top: -20px;" />
+        </a>
+        <a href="Movies/Delete/@item.Id">
+            <img src="~/img/brand/borrar.png" style="height: 40px; width: 40px; margin-left: 25px; position: relative; top: -20px;" />
+        </a>
+    </div>
+</div>
+}*@
 
-
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
+<div class="container">
+    @foreach (var item in Model)
+{
+    <div class="card" style="width: 18rem;">
+        <img src="~/img/Movie/@item.FotoPath" class="card-img-top" alt="..." style="box-sizing: content-box;">
+    </div>
+    <div style="position: relative; left: 20px;">
+        <a href="">
+            <img src="~/img/brand/jugar.png" style="height: 40px; width: 40px; margin-left: 25px; position: relative; top: -20px;" />
+        </a>
+        <a href="Movies/Edit/@item.Id">
+            <img src="~/img/brand/editar.png" style="height: 40px; width: 40px; margin-left: 25px; position: relative; top: -20px;" />
+        </a>
+        <a href="Movies/Delete/@item.Id">
+            <img src="~/img/brand/borrar.png" style="height: 40px; width: 40px; margin-left: 25px; position: relative; top: -20px;" />
+        </a>
+    </div>
 }
-    </tbody>
-</table>
+</div>
+
+@*<table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Url)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Sipnosis)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Foto)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Url)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sipnosis)
+                </td>
+                <td>
+                    @{ var FotoToLook = "~/img/Movie/" + (!string.IsNullOrEmpty(item.FotoPath) ? item.FotoPath : "Error.png"); }
+
+                    <img src="@FotoToLook" asp-append-version="true" alt="Alternate Text" width="25" />
+
+
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>*@
