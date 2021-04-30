@@ -1,4 +1,6 @@
 @model IEnumerable<GestionDeVehiculos.ViewModels.MoviesView>
+@using GestionDeVehiculos.ViewModels
+@using GestionDeVehiculos.Data
 
 @{
     ViewData["Title"] = "Index";
@@ -15,85 +17,28 @@
     {
         <div class="card" style="width: 18rem; margin-bottom: 50px !important;">
             <img src="~/img/Movie/@item.FotoPath" class="card-img-top" alt="...">
-            <br />
-            <div>
-                <a href="Movies/Details/@item.Id" class="text-primary m-0 d-flex align-items-center justify-content-between">
-                    <img src="~/img/brand/jugar.png" style="height: 40px; width: 40px;" />
-                </a>
-                <a href="Movies/Edit/@item.Id" class="text-primary m-0 d-flex align-items-center justify-content-between">
-                    <img src="~/img/brand/editar.png" style="height: 40px; width: 40px;" />
-                </a>
-                <a href="Movies/Delete/@item.Id" class="text-primary m-0 d-flex align-items-center justify-content-between">
-                    <img src="~/img/brand/borrar.png" style="height: 40px; width: 40px;" />
-                </a>
-            </div>
         </div>
+        <div style="position: relative; top: -40px; left: 30px;">
+            <a href="Movies/Details/@item.Id">
+                <img src="~/img/brand/jugar.png" style="height: 40px; width: 40px; margin-left: 20px;" />
+            </a>
+            <a href="Movies/Edit/@item.Id">
+                <img src="~/img/brand/editar.png" style="height: 40px; width: 40px; margin-left: 20px;" />
+            </a>
+            <a href="Movies/Delete/@item.Id">
+                <img src="~/img/brand/borrar.png" style="height: 40px; width: 40px; margin-left: 20px;" />
+            </a>
+        </div>
+
+        <div style="position: relative; left: 400px; top: -220px;">
+            <h1><strong>@item.Nombre</strong></h1>
+            <h3>@item.Sipnosis</h3>
+        </div>
+        <hr />
     }
 </div>
 
-@*@foreach (var item in Model)
-{
-    <div class="container">
-        <div class="card" style="width: 18rem;">
-            <img src="~/img/Movie/@item.FotoPath" class="card-img-top" alt="...">
-        </div>
-        <div style="position: relative; left: 20px;">
-            <a href="">
-                <img src="~/img/brand/jugar.png" style="height: 40px; width: 40px; margin-left: 25px; position: relative; top: -20px;" />
-            </a>
-            <a href="Movies/Edit/@item.Id">
-                <img src="~/img/brand/editar.png" style="height: 40px; width: 40px; margin-left: 25px; position: relative; top: -20px;" />
-            </a>
-            <a href="Movies/Delete/@item.Id">
-                <img src="~/img/brand/borrar.png" style="height: 40px; width: 40px; margin-left: 25px; position: relative; top: -20px;" />
-            </a>
-        </div>
-    </div>
+@*@{
+private readonly ApplicationDbContext _context;
+List<Movie> GetMovies() => _context.movies.OrderByDescending(ee => ee.Id).ToList();
 }*@
-
-@*<table class="table">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Nombre)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Url)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Sipnosis)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Foto)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-    @foreach (var item in Model) {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nombre)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Url)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Sipnosis)
-                </td>
-                <td>
-                    @{ var FotoToLook = "~/img/Movie/" + (!string.IsNullOrEmpty(item.FotoPath) ? item.FotoPath : "Error.png"); }
-
-                    <img src="@FotoToLook" asp-append-version="true" alt="Alternate Text" width="25" />
-
-
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                </td>
-            </tr>
-    }
-        </tbody>
-    </table>*@

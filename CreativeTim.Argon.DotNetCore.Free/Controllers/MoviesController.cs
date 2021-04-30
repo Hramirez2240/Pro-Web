@@ -10,7 +10,7 @@ using GestionDeVehiculos.Models;
 using GestionDeVehiculos.ViewModels;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
-
+using System.ComponentModel;
 
 namespace GestionDeVehiculos.Controllers
 {
@@ -141,11 +141,12 @@ namespace GestionDeVehiculos.Controllers
             }
 
             var movie = await _context.movies.FindAsync(id);
+            var mo = new MoviesView();
             if (movie == null)
             {
                 return NotFound();
             }
-           
+
 
             var MovieT = new MoviesView()
             {
@@ -153,7 +154,7 @@ namespace GestionDeVehiculos.Controllers
                 Nombre = movie.Nombre,
                 Url = movie.Url,
                 Sipnosis = movie.Sipnosis,
-               
+
                 FotoPath = movie.Foto
               
             };

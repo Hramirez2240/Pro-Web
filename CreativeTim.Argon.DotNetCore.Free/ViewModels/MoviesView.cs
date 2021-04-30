@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using GestionDeVehiculos.Models;
 using System.ComponentModel.DataAnnotations;
+using GestionDeVehiculos.Data;
 
 namespace GestionDeVehiculos.ViewModels
 {
@@ -12,10 +13,8 @@ namespace GestionDeVehiculos.ViewModels
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
-       
         public string Url { get; set; }
         public string Sipnosis { get; set; }
-
         public IFormFile  Foto { get; set; }
 
 

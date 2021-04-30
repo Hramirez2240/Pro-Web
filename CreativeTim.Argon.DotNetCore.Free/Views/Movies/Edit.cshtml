@@ -15,22 +15,22 @@
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control" />
+                <input asp-for="Nombre" class="form-control" required="" oninvalid="this.setCustomValidity('Por favor, ingrese el nombre')" oninput="setCustomValidity('')"/>
                 <span asp-validation-for="Nombre" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Url" class="control-label"></label>
-                <input asp-for="Url" class="form-control" />
+                <input asp-for="Url" class="form-control" required="" oninvalid="this.setCustomValidity('Por favor, ingrese la url')" oninput="setCustomValidity('')"/>
                 <span asp-validation-for="Url" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Sipnosis" class="control-label"></label>
-                <input asp-for="Sipnosis" class="form-control" />
+                <input asp-for="Sipnosis" class="form-control" required="" oninvalid="this.setCustomValidity('Por favor, ingrese la sinopsis')" oninput="setCustomValidity('')"/>
                 <span asp-validation-for="Sipnosis" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Foto" class="control-label"></label>
-                <input asp-for="Foto" class="form-control" />
+                <input asp-for="Foto" class="form-control" required="" oninvalid="this.setCustomValidity('Por favor, seleccione una foto')" oninput="setCustomValidity('')"/>
                 <span asp-validation-for="Foto" class="text-danger"></span>
             </div>
             <div class="form-group">

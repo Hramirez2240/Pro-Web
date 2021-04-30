@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\FINAL-WEB\\CreativeTim.Argon.DotNetCore.Free\\GestionDeVehiculos.csproj",
+  "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\GestionDeVehiculos.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14400,6 +14400,252 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "CreativeTim.Argon.DotNetCore.Free",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_Breadcrumbs.cshtml",
+      "TargetPath": "Views\\Shared\\_Breadcrumbs.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\Topnav\\_Dropdown.cshtml",
+      "TargetPath": "Views\\Shared\\Topnav\\_Dropdown.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_NavbarUserInfo.cshtml",
+      "TargetPath": "Views\\Shared\\_NavbarUserInfo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\Topnav\\_Search.cshtml",
+      "TargetPath": "Views\\Shared\\Topnav\\_Search.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Home\\Status4xx.cshtml",
+      "TargetPath": "Views\\Home\\Status4xx.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\Topnav\\_CurrentUser.cshtml",
+      "TargetPath": "Views\\Shared\\Topnav\\_CurrentUser.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Home\\Tables.cshtml",
+      "TargetPath": "Views\\Home\\Tables.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\Auth\\_Navbar.cshtml",
+      "TargetPath": "Views\\Shared\\Auth\\_Navbar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_ThemeStyles.cshtml",
+      "TargetPath": "Views\\Shared\\_ThemeStyles.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_OpenGraph.cshtml",
+      "TargetPath": "Views\\Shared\\_OpenGraph.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Movies\\Create.cshtml",
+      "TargetPath": "Views\\Movies\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_LayoutProfile.cshtml",
+      "TargetPath": "Views\\Shared\\_LayoutProfile.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Movies\\Delete.cshtml",
+      "TargetPath": "Views\\Movies\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_Header.cshtml",
+      "TargetPath": "Views\\Shared\\_Header.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_ThemeScripts.cshtml",
+      "TargetPath": "Views\\Shared\\_ThemeScripts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Home\\Maps.cshtml",
+      "TargetPath": "Views\\Home\\Maps.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_ExternalScripts.cshtml",
+      "TargetPath": "Views\\Shared\\_ExternalScripts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Home\\Icons.cshtml",
+      "TargetPath": "Views\\Home\\Icons.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Movies\\Index.cshtml",
+      "TargetPath": "Views\\Movies\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Home\\Status404.cshtml",
+      "TargetPath": "Views\\Home\\Status404.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_IdentityLayout.cshtml",
+      "TargetPath": "Views\\Shared\\_IdentityLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_Navbar.cshtml",
+      "TargetPath": "Views\\Shared\\_Navbar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_Sidebar.cshtml",
+      "TargetPath": "Views\\Shared\\_Sidebar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_Footer.cshtml",
+      "TargetPath": "Views\\Shared\\_Footer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_Sidenav.cshtml",
+      "TargetPath": "Views\\Shared\\_Sidenav.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\Topnav\\_Topnav.cshtml",
+      "TargetPath": "Views\\Shared\\Topnav\\_Topnav.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Home\\Upgrade.cshtml",
+      "TargetPath": "Views\\Home\\Upgrade.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_PageHeadElement.cshtml",
+      "TargetPath": "Views\\Shared\\_PageHeadElement.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Movies\\Edit.cshtml",
+      "TargetPath": "Views\\Movies\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Home\\Profile.cshtml",
+      "TargetPath": "Views\\Home\\Profile.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\_Dropdown.cshtml",
+      "TargetPath": "Views\\Shared\\_Dropdown.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Shared\\Topnav\\_Links.cshtml",
+      "TargetPath": "Views\\Shared\\Topnav\\_Links.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\Views\\Movies\\Details.cshtml",
+      "TargetPath": "Views\\Movies\\Details.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

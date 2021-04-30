@@ -14,6 +14,7 @@ using GestionDeVehiculos.ViewModels;
 using System.Collections.Generic;
 using GestionDeVehiculos.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace GestionDeVehiculos.Controllers
 {
