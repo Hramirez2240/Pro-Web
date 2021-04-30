@@ -829,7 +829,6 @@ C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Home\Icons.cshtml.g.cs
-C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Home\Maps.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Home\Profile.cshtml.g.cs
@@ -841,7 +840,6 @@ C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Delete.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Details.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Edit.cshtml.g.cs
-C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Index.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Auth\_Navbar.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Topnav\_CurrentUser.cshtml.g.cs
@@ -863,7 +861,6 @@ C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_OpenGraph.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PageHeadElement.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Sidebar.cshtml.g.cs
-C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Sidenav.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ThemeScripts.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ThemeStyles.cshtml.g.cs
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -876,3 +873,6 @@ C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\CreativeTim.Argon.DotNetCore.Free.dll
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\CreativeTim.Argon.DotNetCore.Free.pdb
 C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\GestionDeVehiculos.genruntimeconfig.cache
+C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Sidenav.cshtml.g.cs
+C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Ramirez Rodriguez\Desktop\Héctor\Itla\Materias\Programación web\FINAL-WEB\CreativeTim.Argon.DotNetCore.Free\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Index.cshtml.g.cs

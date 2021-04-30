@@ -10,6 +10,10 @@ using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using GestionDeVehiculos.ViewModels;
+using System.Collections.Generic;
+using GestionDeVehiculos.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace GestionDeVehiculos.Controllers
 {
@@ -20,24 +24,51 @@ namespace GestionDeVehiculos.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly ApplicationDbContext _context;
 
-        [TempData]
-        public string StatusMessage { get; set; }
 
-        public HomeController(
-            ILogger<HomeController> logger,
-            UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager)
+        public HomeController
+            (
+              ILogger<HomeController> logger,
+              UserManager<ApplicationUser> userManager,
+              SignInManager<ApplicationUser> signInManager,
+               ApplicationDbContext _context) : base(logger)
         {
             _logger = logger;
             _userManager = userManager;
             _signInManager = signInManager;
+            this._context = _context;
         }
 
-        [HttpGet("Movies/Index")]
-        public IActionResult Index()
+
+
+        [TempData]
+        public string StatusMessage { get; set; }
+
+       
+
+        [HttpGet]
+        public async Task<IActionResult> Index()
         {
-            return View();
+
+            var MoviesList = new List<MoviesView>();
+            var movies = await _context.movies.ToListAsync();
+            foreach (var item in movies)
+            {
+                var MovieT = new MoviesView()
+                {
+                    Id = item.Id,
+                    Nombre = item.Nombre,
+                    Url = item.Url,
+                    Sipnosis = item.Sipnosis,
+                    FotoPath = item.Foto
+
+                };
+
+                MoviesList.Add(MovieT);
+
+            }
+            return View(MoviesList);
         }
 
         [HttpGet("/icons")]

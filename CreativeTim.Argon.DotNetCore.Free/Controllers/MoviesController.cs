@@ -30,8 +30,6 @@ namespace GestionDeVehiculos.Controllers
         public async Task<IActionResult> Index()
         {
            
-
-
             var MoviesList = new List<MoviesView>();
             var movies = await _context.movies.ToListAsync();
             foreach (var item in movies)
