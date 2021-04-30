@@ -9,6 +9,7 @@
 <p>
     <a asp-action="Create">Crear pelicula</a>
 </p>
+<<<<<<< HEAD
 
 @*@foreach (var item in Model)
 {
@@ -96,3 +97,51 @@
     }
         </tbody>
     </table>*@
+=======
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Url)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sipnosis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Foto)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Url)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sipnosis)
+            </td>
+            <td>
+                @{ var FotoToLook = "~/img/Movie/" + (!string.IsNullOrEmpty(item.FotoPath) ? item.FotoPath : "Error.png"); }
+
+                <img src="@FotoToLook" asp-append-version="true" alt="Alternate Text" width="25" />
+
+
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+>>>>>>> 3d36e829d6a85856b080096fd284eac70d405e3f

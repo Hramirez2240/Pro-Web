@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\FINAL-WEB\\CreativeTim.Argon.DotNetCore.Free\\GestionDeVehiculos.csproj": {}
+    "C:\\Users\\dhima\\Desktop\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\GestionDeVehiculos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\FINAL-WEB\\CreativeTim.Argon.DotNetCore.Free\\GestionDeVehiculos.csproj": {
+    "C:\\Users\\dhima\\Desktop\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\GestionDeVehiculos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\FINAL-WEB\\CreativeTim.Argon.DotNetCore.Free\\GestionDeVehiculos.csproj",
+        "projectUniqueName": "C:\\Users\\dhima\\Desktop\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\GestionDeVehiculos.csproj",
         "projectName": "CreativeTim.Argon.DotNetCore.Free",
-        "projectPath": "C:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\FINAL-WEB\\CreativeTim.Argon.DotNetCore.Free\\GestionDeVehiculos.csproj",
-        "packagesPath": "C:\\Users\\Ramirez Rodriguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ramirez Rodriguez\\Desktop\\Héctor\\Itla\\Materias\\Programación web\\FINAL-WEB\\CreativeTim.Argon.DotNetCore.Free\\obj\\",
+        "projectPath": "C:\\Users\\dhima\\Desktop\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\GestionDeVehiculos.csproj",
+        "packagesPath": "C:\\Users\\dhima\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dhima\\Desktop\\Pro-Web\\CreativeTim.Argon.DotNetCore.Free\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ramirez Rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dhima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
