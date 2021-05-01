@@ -38,8 +38,3 @@
         <hr />
     }
 </div>
-
-@*@{ 
-    private readonly ApplicationDbContext _context;
-    List<Movie> GetMovies() => _context.movies.OrderByDescending(ee => ee.Id).ToList();
-}*@

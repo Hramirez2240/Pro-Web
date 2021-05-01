@@ -127,7 +127,7 @@ namespace GestionDeVehiculos.Controllers
 
                 _context.Add(movie);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Movies");
             }
             return View(MovieT);
         }
@@ -141,7 +141,6 @@ namespace GestionDeVehiculos.Controllers
             }
 
             var movie = await _context.movies.FindAsync(id);
-            var mo = new MoviesView();
             if (movie == null)
             {
                 return NotFound();
@@ -176,6 +175,7 @@ namespace GestionDeVehiculos.Controllers
             }
 
             var MovieUpdate = await _context.movies.FirstOrDefaultAsync(x => x.Id == MovieT.Id);
+            var movie_ejemplo = _context.movies.Find(MovieT.Id);
 
 
             if (MovieUpdate == null)
@@ -219,7 +219,7 @@ namespace GestionDeVehiculos.Controllers
                 MovieUpdate.Url = MovieT.Url;
                 MovieUpdate.Sipnosis = MovieT.Sipnosis;
              
-                MovieUpdate.Foto = uniqueName;
+                //MovieUpdate.Foto = movie_ejemplo.Foto;
        
                 try
                 {
@@ -237,7 +237,7 @@ namespace GestionDeVehiculos.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Movies");
             }
             return View(MovieT);
         }
@@ -268,7 +268,7 @@ namespace GestionDeVehiculos.Controllers
             var movie = await _context.movies.FindAsync(id);
             _context.movies.Remove(movie);
             await _context.SaveChangesAsync();
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Movies");
         }
 
         private bool MovieExists(int id)
