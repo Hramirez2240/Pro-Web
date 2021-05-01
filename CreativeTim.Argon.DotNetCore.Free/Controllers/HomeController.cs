@@ -53,7 +53,7 @@ namespace GestionDeVehiculos.Controllers
         {
 
             var MoviesList = new List<MoviesView>();
-            var movies = await _context.movies.ToListAsync();
+            var movies = _context.movies.OrderByDescending(ee => ee.Id).ToList();
             foreach (var item in movies)
             {
                 var MovieT = new MoviesView()

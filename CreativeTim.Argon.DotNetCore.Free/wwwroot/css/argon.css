@@ -112,7 +112,6 @@ body {
     line-height: 1.5;
     margin: 0;
     text-align: left;
-    color: ##D5DBDB;
 }
 
 [tabindex='-1']:focus:not(:focus-visible);
@@ -436,11 +435,9 @@ legend
 
     color: inherit;
 }
-@media (max-width: 1200px)
-{
-    legend
-    {
-        font-size: calc(1.275rem + .3vw) ;
+@media (max-width: 1200px) {
+    legend {
+        font-size: calc(1.275rem + .3vw);
     }
 }
 
@@ -8687,22 +8684,18 @@ a.close.disabled
     background-image: url('data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'%23fff\' width=\'8\' height=\'8\' viewBox=\'0 0 8 8\'%3e%3cpath d=\'M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z\'/%3e%3c/svg%3e');
 }
 
-.carousel-indicators
-{
+
+.carousel-indicators {
     position: absolute;
     z-index: 15;
     right: 0;
     bottom: 0;
     left: 0;
-
     display: flex;
-
     margin-right: 15%;
     margin-left: 15%;
     padding-left: 0;
-
-    list-style: none; 
-
+    list-style: none;
     justify-content: center;
 }
 .carousel-indicators li
@@ -8785,7 +8778,7 @@ a.close.disabled
 
 .bg-primary {
     background-color: #5e72e4 !important;
-    background-image: url("../img/theme/cine11.jpg")
+    background-image: url("../img/theme/cine11.jpg");
 }
 
 a.bg-primary:hover,

@@ -12,6 +12,8 @@
     <a asp-action="Create">Crear pelicula</a>
 </p>
 
+<h1 style="font-size: 40px;"><strong>Próximamente</strong></h1>
+<hr />
 <div class="container">
     @foreach (var item in Model)
     {
@@ -32,7 +34,7 @@
 
         <div style="position: relative; left: 400px; top: -220px;">
             <h1><strong>@item.Nombre</strong></h1>
-            <h3>@item.Sipnosis</h3>
+            <h3 style="max-width: 200px;">@item.Sipnosis</h3>
         </div>
         <hr />
     }
